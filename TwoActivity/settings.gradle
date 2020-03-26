@@ -1,0 +1,2 @@
+rootProject.name='Two Activity'
+include ':app'
