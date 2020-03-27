@@ -19,5 +19,24 @@
     <string name="donut_order_message">You ordered a donut.</string>
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
-    <string name="no_order">you didnt order anything</string>
+    <string name="no_order">You didnt order anything</string>
+    <string name="label_name">Name</string>
+    <string name="textview_order">Order</string>
+    <string name="edittext_name">Enter your name</string>
+    <string name="label_adress">Adress</string>
+    <string name="label_phone">Phone</string>
+    <string name="hint_adress">Entere your adress</string>
+    <string name="hint_phone">Enter your phone</string>
+    <string name="textview_note">Note</string>
+    <string name="hint_note">Enter your note</string>
+    <string name="textview_delivery">Choose a delivery method</string>
+    <string name="same_day_messenger_service">Same day messenger service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 </resources>
