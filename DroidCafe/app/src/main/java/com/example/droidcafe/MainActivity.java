@@ -51,23 +51,43 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+      switch (id){
+          case R.id.action_contact:
+              displayToast(getString(R.string.action_contact));
+              break;
+          case R.id.action_Favorites:
+              displayToast(getString(R.string.action_favorites));
+              break;
+          case R.id.action_status:
+              displayToast(getString(R.string.action_status));
+              break;
+          case  R.id.action_order:
+              displayToast(getString(R.string.action_order));
+              Intent intent=new Intent(this,OrderActivity.class);
+              intent.putExtra(EXTRA_MESSAGE,orderMessage);
+              startActivity(intent);
+              break;
+          default:
+              //do nothing
+
+
+      }
 
         return super.onOptionsItemSelected(item);
     }
     public void displayToast(String message){
-        orderMessage=message;
-        Toast.makeText(getApplicationContext(),orderMessage,Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
     }
     public void showDonutOrder(View view) {
-        displayToast(getString(R.string.donut_order_message));
+        orderMessage=getString(R.string.donut_order_message);
+        displayToast(orderMessage);
     }
     public void showIceCreamOrder(View view){
-        displayToast(getString(R.string.ice_cream_order_message));
+        orderMessage=getString(R.string.ice_cream_order_message);
+        displayToast(orderMessage);
     }
     public void showFroyoOrder(View view){
-        displayToast(getString(R.string.froyo_order_message));
+        orderMessage=getString(R.string.froyo_order_message);
+        displayToast(orderMessage);
     }
 }
