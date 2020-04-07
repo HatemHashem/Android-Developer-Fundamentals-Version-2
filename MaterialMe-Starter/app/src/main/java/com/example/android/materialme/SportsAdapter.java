@@ -17,6 +17,7 @@
 package com.example.android.materialme;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,7 +37,7 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
     // Member variables.
     private ArrayList<Sport> mSportsData;
     private Context mContext;
-    private ImageView mSportsImage;
+
 
     /**
      * Constructor that passes in the sports data and the context.
@@ -80,7 +81,6 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
 
         // Populate the textviews with data.
         holder.bindTo(currentSport);
-        Glide.with(mContext).load(currentSport.getImageResource()).into(mSportsImage);
     }
 
     /**
@@ -97,11 +97,13 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
     /**
      * ViewHolder class that represents each row of data in the RecyclerView.
      */
-    class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         // Member Variables for the TextViews
         private TextView mTitleText;
         private TextView mInfoText;
+        private ImageView mSportsImage;
+
 
         /**
          * Constructor for the ViewHolder, used in onCreateViewHolder().
@@ -112,15 +114,27 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             super(itemView);
 
             // Initialize the views.
-            mTitleText = itemView.findViewById(R.id.title);
-            mInfoText = itemView.findViewById(R.id.subTitle);
-            mSportsImage=itemView.findViewById(R.id.sports_image);
+            mTitleText = itemView.findViewById(R.id.title_details);
+            mInfoText = itemView.findViewById(R.id.subTitle_details);
+            mSportsImage=itemView.findViewById(R.id.sports_image_details);
+            itemView.setOnClickListener(this);
         }
 
         void bindTo(Sport currentSport){
             // Populate the textviews with data.
             mTitleText.setText(currentSport.getTitle());
             mInfoText.setText(currentSport.getInfo());
+            Glide.with(mContext).load(currentSport.getImageResource()).into(mSportsImage);
+
+        }
+
+        @Override
+        public void onClick(View v) {
+            Sport currentSport=mSportsData.get(getAdapterPosition());
+            Intent i=new Intent(mContext,DetailActivity.class);
+            i.putExtra("title_text",currentSport.getTitle());
+            i.putExtra("image_resource",currentSport.getImageResource());
+            mContext.startActivity(i);
 
         }
     }

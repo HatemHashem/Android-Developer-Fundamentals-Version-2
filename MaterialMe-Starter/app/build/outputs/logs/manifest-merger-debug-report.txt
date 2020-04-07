@@ -1,75 +1,92 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e8da131f54f89e9c00b134abb96fd4c0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42397e2a29e1c6e0e6a72857265df978\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\177b0794ae608fac0c46de9f88394bbd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\574f6ef0c72a2bae1676195af66aebf8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b7dc78a6e838e4fef2318d656df517e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8f2c1b7455dbd385dd8273e3f1a015b2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2edc71822f5654331d59e9a0cbb102bc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\8a7f82fea638993095d8d79443752242\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\8c17cd976fbe09baabc1aa98ff6843a0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\569e7f44822c5c4e0c806954e8bafce1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e58a25d9c3d54707599ec65546952316\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\1d71c0f038f0f5b9cafa8048efa6d5e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\15226106f539b931038dcf1928f23a13\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51a7fa79c40db2024a837bdc0438dcb5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1b73df852683079956d6a203b5e53bfe\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\caeb3ee2b99ffd04b871f95dad4cebbf\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b545733078e6105188ea7fcb1f99584b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9cb5d8d3c6912fe452534d08259f7fec\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
-INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:18:5-45
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:1-35:12
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:1-21:12
 		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:17:11-69
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:20:5-33:19
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e8da131f54f89e9c00b134abb96fd4c0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e8da131f54f89e9c00b134abb96fd4c0\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:22:9-43
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.android.materialme.DetailActivity
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:11:9-61
+	android:name
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:11:19-49
 activity#com.example.android.materialme.MainActivity
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:26:19-77
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
 INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
 INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\MaterialMe-Starter\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e8da131f54f89e9c00b134abb96fd4c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e8da131f54f89e9c00b134abb96fd4c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42397e2a29e1c6e0e6a72857265df978\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\42397e2a29e1c6e0e6a72857265df978\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\177b0794ae608fac0c46de9f88394bbd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\177b0794ae608fac0c46de9f88394bbd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\574f6ef0c72a2bae1676195af66aebf8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\574f6ef0c72a2bae1676195af66aebf8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b7dc78a6e838e4fef2318d656df517e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8b7dc78a6e838e4fef2318d656df517e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8f2c1b7455dbd385dd8273e3f1a015b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8f2c1b7455dbd385dd8273e3f1a015b2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2edc71822f5654331d59e9a0cbb102bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2edc71822f5654331d59e9a0cbb102bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\8a7f82fea638993095d8d79443752242\AndroidManifest.xml:20:5-44
@@ -80,6 +97,10 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.grad
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\569e7f44822c5c4e0c806954e8bafce1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e58a25d9c3d54707599ec65546952316\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e58a25d9c3d54707599ec65546952316\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\1d71c0f038f0f5b9cafa8048efa6d5e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\1d71c0f038f0f5b9cafa8048efa6d5e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\15226106f539b931038dcf1928f23a13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\15226106f539b931038dcf1928f23a13\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51a7fa79c40db2024a837bdc0438dcb5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\51a7fa79c40db2024a837bdc0438dcb5\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1b73df852683079956d6a203b5e53bfe\AndroidManifest.xml:20:5-44

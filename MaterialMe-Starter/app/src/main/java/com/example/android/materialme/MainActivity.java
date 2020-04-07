@@ -105,11 +105,16 @@ public class MainActivity extends AppCompatActivity {
         for(int i=0;i<sportsList.length;i++){
             mSportsData.add(new Sport(sportsList[i],sportsInfo[i],sportsImg.getResourceId(i,0)));
         }
-        sportsImg.recycle();
+
 
         // Notify the adapter of the change.
+        sportsImg.recycle();
         mAdapter.notifyDataSetChanged();
+
     }
 
 
+    public void resetAll(View view) {
+        initializeData();
+    }
 }
