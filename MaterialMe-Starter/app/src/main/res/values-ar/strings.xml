@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sports_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+        <item>@drawable/img_bowling</item>
+        <item>@drawable/img_cycling</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_running</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_swimming</item>
+        <item>@drawable/img_tabletennis</item>
+        <item>@drawable/img_tennis</item>
+    </array>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+    <string name="sports_info_placeholder">Here is some news</string>
+
+    <string name="app_name">Material Me!</string>
+    <string name="news_holder">A fierce critic of Turkey, Enes Kanter has more than just losing the NBA season on his mind</string>
+
+    <string-array name="sports_info">
+        <item>إليك بعض أخبار البيسبول!</item>
+        <item>إليك بعض أخبار تنس الريشة!</item>
+        <item>إليك بعض أخبار كرة السلة!</item>
+        <item>إليك بعض أخبار البولينج!</item>
+        <item>إليك بعض أخبار ركوب الدراجات!</item>
+        <item>إليك بعض أخبار الجولف!</item>
+        <item>إليك بعض الأخبار رياضة الجري!</item>
+        <item>إليك بعض أخبار كرة القدم!</item>
+        <item>هنا بعض أخبار السباحة!</item>
+        <item>إليك بعض أخبار تنس الطاولة!</item>
+        <item>إليك بعض أخبار التنس!</item>
+    </string-array>
+    <string-array name="sports_titles">
+        <item>البيسبول</item>
+        <item>تنس الريشة</item>
+        <item>كرة سلة</item>
+        <item>البولينج</item>
+        <item>ركوب الدراجات</item>
+        <item>الجولف</item>
+        <item>ركض</item>
+        <item>كرة القدم</item>
+        <item>سباحة</item>
+        <item>تنس طاولة</item>
+        <item>تنس</item>
+    </string-array>
+
+</resources>

@@ -6,28 +6,50 @@
                 {
                     "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\177b0794ae608fac0c46de9f88394bbd\\res\\values-ar\\values-ar.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,61",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,326,435,517,618,732,811,890,969,1074,1175,1271,1379,1482,1585,1740,1837",
+                        "startOffsets": "1587,1704,1808,1917,1999,2100,2214,2293,2372,2451,2556,2657,2753,2861,2964,3067,3222,3551",
                         "endColumns": "116,103,108,81,100,113,78,78,78,104,100,95,107,102,102,154,96,80",
-                        "endOffsets": "217,321,430,512,613,727,806,885,964,1069,1170,1266,1374,1477,1580,1735,1832,1913"
+                        "endOffsets": "1699,1803,1912,1994,2095,2209,2288,2367,2446,2551,2652,2748,2856,2959,3062,3217,3314,3627"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidG\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\src\\main\\res\\values-ar\\strings.xml",
+                    "from": {
+                        "startLines": "-1,22,35,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,4,4,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,958,1545,-1,-1,-1,-1,-1",
+                        "endLines": "-1,34,47,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,19,19,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,1539,1935,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,15,28,58,59,60,62,64",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,630,1204,3319,3369,3501,3632,3803",
+                        "endLines": "14,27,40,58,59,60,62,64",
+                        "endColumns": "12,19,19,49,131,49,69,51",
+                        "endOffsets": "625,1199,1582,3364,3496,3546,3697,3850"
                     }
                 },
                 {
                     "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\51a7fa79c40db2024a837bdc0438dcb5\\res\\values-ar\\values-ar.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
-                        "startLines": "20",
+                        "startLines": "63",
                         "startColumns": "4",
-                        "startOffsets": "1918",
+                        "startOffsets": "3702",
                         "endColumns": "100",
-                        "endOffsets": "2014"
+                        "endOffsets": "3798"
                     }
                 }
             ]

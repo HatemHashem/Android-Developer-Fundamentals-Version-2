@@ -45,6 +45,7 @@
       <list>
         <option value="Class" />
         <option value="resourceFile" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>

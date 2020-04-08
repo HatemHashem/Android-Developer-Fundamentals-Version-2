@@ -6,6 +6,11 @@
                 {
                     "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\177b0794ae608fac0c46de9f88394bbd\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,124,193,263,337,413,472,543",
@@ -16,20 +21,34 @@
                 {
                     "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\42397e2a29e1c6e0e6a72857265df978\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
-                        "endLines": "2,3,4,5,6,7,8,9,10,14",
-                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,17,18,19",
+                        "startLines": "10,11,12,13,14,15,16,17,18,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1233",
-                        "endLines": "10,11,12,13,14,15,16,17,18,22",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1281",
+                        "endLines": "10,11,12,13,14,15,16,17,18,23",
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1410"
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,1458"
+                    }
+                },
+                {
+                    "source": "D:\\AndroidG\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\src\\main\\res\\values-sw600dp\\integers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "47",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1233",
+                        "endColumns": "47",
+                        "endOffsets": "1276"
                     }
                 }
             ]

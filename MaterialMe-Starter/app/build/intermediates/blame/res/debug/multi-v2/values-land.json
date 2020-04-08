@@ -4,27 +4,46 @@
             "outputFile": "D:\\AndroidG\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\42397e2a29e1c6e0e6a72857265df978\\res\\values-land\\values-land.xml",
+                    "source": "D:\\AndroidG\\android-fundamentals-starter-apps-v2\\MaterialMe-Starter\\app\\src\\main\\res\\values-land\\integers.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
+                        "startOffsets": "57",
+                        "endColumns": "47",
+                        "endOffsets": "100"
                     },
                     "to": {
                         "startLines": "6",
                         "startColumns": "4",
                         "startOffsets": "328",
-                        "endLines": "9",
+                        "endColumns": "47",
+                        "endOffsets": "371"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\42397e2a29e1c6e0e6a72857265df978\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "376",
+                        "endLines": "10",
                         "endColumns": "12",
-                        "endOffsets": "505"
+                        "endOffsets": "553"
                     }
                 },
                 {
                     "source": "C:\\Users\\Hatem\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\177b0794ae608fac0c46de9f88394bbd\\res\\values-land\\values-land.xml",
                     "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,125,189,260",
