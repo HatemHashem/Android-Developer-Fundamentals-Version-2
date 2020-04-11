@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhoWroteIt</string>
+    <string name="textview_instructions">Enter a book name to find out who wrote the book.</string>
+    <string name="edittext_book_input">Enter the book title</string>
+    <string name="button_search_books">Search books</string>
+    <string name="textview_book_title">Book title</string>
+    <string name="textview_author_name">Author name</string>
+</resources>
