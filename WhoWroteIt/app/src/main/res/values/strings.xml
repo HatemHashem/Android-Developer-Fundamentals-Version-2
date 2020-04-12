@@ -5,4 +5,7 @@
     <string name="button_search_books">Search books</string>
     <string name="textview_book_title">Book title</string>
     <string name="textview_author_name">Author name</string>
+    <string name="loading">Loading...</string>
+    <string name="book_not_found">Sorry book no found</string>
+    <string name="no_internet">No internet connection</string>
 </resources>

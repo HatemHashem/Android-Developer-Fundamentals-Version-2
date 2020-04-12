@@ -1,21 +1,28 @@
 package com.example.whowroteit;
 
+import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
-
-import java.lang.ref.WeakReference;
-import com.example.whowroteit.NetworkUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class FetchBook extends AsyncTask<String,Void,String> {
+import java.lang.ref.WeakReference;
+
+public class FetchBook extends AsyncTask<String, Void, String> {
     private WeakReference<TextView> mAuthorName;
     private WeakReference<TextView> mBookTitle;
+    private WeakReference<ImageView> mThumbnail;
+    private WeakReference<Context> context;
+    private static final String TAG = "FetchBook";
 
-    public FetchBook(TextView authorName, TextView bookTitle) {
+    public FetchBook(Context context, TextView authorName, TextView bookTitle, ImageView thumbnail) {
         this.mAuthorName = new WeakReference<>(authorName);
         this.mBookTitle = new WeakReference<>(bookTitle);
+        this.mThumbnail = new WeakReference<>(thumbnail);
+        this.context = new WeakReference<>(context);
     }
 
     @Override
@@ -29,30 +36,34 @@ public class FetchBook extends AsyncTask<String,Void,String> {
         super.onPostExecute(s);
         try {
 
-            String authorName=null;
-            String bookName=null;
-            JSONObject jsonObject=new JSONObject(s);
-            JSONArray arrayItem=jsonObject.getJSONArray("items");
-            int i=0;
-         while ( i<arrayItem.length()&&
-                 (authorName==null&&bookName==null)){
-            JSONObject book= arrayItem.getJSONObject(i);
-             JSONObject volumeInfo=book.getJSONObject("volumeInfo");
-             bookName=volumeInfo.getString("title");
-             authorName = volumeInfo.getString("authors");
-             i++;
+            String authorName = null;
+            String bookName = null;
+            JSONObject jsonObject = new JSONObject(s);
+            JSONArray arrayItem = jsonObject.getJSONArray("items");
+            int i = 0;
+            while (i < arrayItem.length() &&
+                    (authorName == null && bookName == null)) {
+                JSONObject book = arrayItem.getJSONObject(i);
+                JSONObject volumeInfo = book.getJSONObject("volumeInfo");
+                JSONObject imageLinks = volumeInfo.getJSONObject("imageLinks");
+                String thumbnail = imageLinks.getString("thumbnail");
+                Log.d(TAG, "onPostExecute: "+thumbnail);
+                GlideApp.with(context.get()).load(thumbnail).into(mThumbnail.get());
+                bookName = volumeInfo.getString("title");
+                authorName = volumeInfo.getString("authors");
+                i++;
 
-         }
-         if(authorName!=null&&bookName!=null){
-             mAuthorName.get().setText(authorName);
-             mBookTitle.get().setText(bookName);
-         }else {
-             mAuthorName.get().setText("error");
-             mBookTitle.get().setText("error");
+            }
+            if (authorName != null && bookName != null) {
+                mAuthorName.get().setText(authorName);
+                mBookTitle.get().setText(bookName);
+            } else {
+                mAuthorName.get().setText("error");
+                mBookTitle.get().setText("error");
 
-         }
+            }
 
-        }catch (Exception e){
+        } catch (Exception e) {
             mAuthorName.get().setText("error");
             mBookTitle.get().setText("error");
 

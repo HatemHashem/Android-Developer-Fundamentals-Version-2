@@ -42,7 +42,8 @@
         android:text="@string/textview_instructions"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/book_title_textview"
@@ -67,5 +68,15 @@
         app:layout_constraintStart_toStartOf="parent"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         app:layout_constraintTop_toBottomOf="@+id/book_title_textview" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/thumbnail_imageview"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/author_textview"></ImageView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
