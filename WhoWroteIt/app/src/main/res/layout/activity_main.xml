@@ -6,16 +6,26 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/instructions_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textview_instructions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:text="@string/button_search_books"
         android:onClick="searchBooks"
+        android:text="@string/button_search_books"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bookinput_edittext" />
 
@@ -33,50 +43,83 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/instructions_textview" />
 
-    <TextView
-        android:id="@+id/instructions_textview"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/textview_instructions"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="8dp" />
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_button"
+        tools:layout_editor_absoluteX="16dp">
 
-    <TextView
-        android:id="@+id/book_title_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/textview_book_title"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_button" />
 
-    <TextView
-        android:id="@+id/author_textview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/textview_author_name"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        app:layout_constraintTop_toBottomOf="@+id/book_title_textview" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:id="@+id/thumbnail_imageview"
-        android:layout_marginTop="16dp"
-        android:src="@mipmap/ic_launcher"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/author_textview"></ImageView>
+            <ImageView
+                android:id="@+id/thumbnail_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                ></ImageView>
+
+            <RatingBar
+                android:id="@+id/rate"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/author_textview"
+                android:layout_toRightOf="@id/published_date_textview"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:stepSize=".1"
+                android:visibility="invisible"
+
+                ></RatingBar>
+
+            <TextView
+                android:id="@+id/author_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/book_title_textview"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+
+            <TextView
+                android:id="@+id/book_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail_imageview"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <TextView
+                android:id="@+id/published_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/author_textview"
+                android:layout_marginRight="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/description_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"></TextView>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/published_date_textview"
+                android:background="@android:color/darker_gray" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
