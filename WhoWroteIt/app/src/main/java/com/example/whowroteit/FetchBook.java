@@ -50,6 +50,7 @@ public class FetchBook extends AsyncTask<String, Void, String> {
             String publishedDate = null;
             String description = null;
             double averageRating = 0;
+            String thumbnail=null;
             JSONObject jsonObject = new JSONObject(s);
             JSONArray arrayItem = jsonObject.getJSONArray("items");
             int i = 0;
@@ -58,24 +59,30 @@ public class FetchBook extends AsyncTask<String, Void, String> {
                 JSONObject book = arrayItem.getJSONObject(i);
                 JSONObject volumeInfo = book.getJSONObject("volumeInfo");
                 JSONObject imageLinks = volumeInfo.getJSONObject("imageLinks");
-                String thumbnail = imageLinks.getString("thumbnail");
-                Log.d(TAG, "onPostExecute: " + thumbnail);
-                GlideApp.with(context.get()).load(thumbnail).into(mThumbnail.get());
                 bookName = volumeInfo.getString("title");
                 authorName = volumeInfo.getString("authors");
+                Log.d(TAG, "onPostExecute0: "+bookName +":"+authorName);
                 publishedDate = volumeInfo.getString("publishedDate");
-                averageRating = volumeInfo.getDouble("averageRating");
-                description = volumeInfo.getString("description");
-                System.out.println(publishedDate + "test" + averageRating);
+                if(volumeInfo.has("averageRating")) {
+                    averageRating = volumeInfo.getDouble("averageRating");
+                }
+                if(volumeInfo.has("description")) {
+                    description = volumeInfo.getString("description");
+                }
+                thumbnail = imageLinks.getString("thumbnail");
+                Log.d(TAG, "onPostExecute1: " + thumbnail);
+
                 i++;
 
             }
+
             if (authorName != null && bookName != null) {
                 mAuthorName.get().setText(authorName);
                 mBookTitle.get().setText(bookName);
                 mPublishedDate.get().setText(publishedDate);
-                mRating.get().setRating((float) averageRating);
+              mRating.get().setRating((float) averageRating);
                 mdescription.get().setText(description);
+                GlideApp.with(context.get()).load(thumbnail).into(mThumbnail.get());
             } else {
                 mAuthorName.get().setText("error");
                 mBookTitle.get().setText("error");
@@ -83,6 +90,7 @@ public class FetchBook extends AsyncTask<String, Void, String> {
             }
 
         } catch (Exception e) {
+            Log.e(TAG, "onPostExecute: ",e.fillInStackTrace() );
             mAuthorName.get().setText("error");
             mBookTitle.get().setText("error");
 
