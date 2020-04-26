@@ -1,0 +1,4 @@
+#Sun Apr 26 17:50:10 EET 2020
+base.0=D\:\\AndroidG\\android-fundamentals-starter-apps-v2\\HelloSharedPrefs\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

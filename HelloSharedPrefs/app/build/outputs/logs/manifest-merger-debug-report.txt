@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\416bdad318b927d26f07e9a22b960cc1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\99514c50de3343522b366ec90f34f3ff\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\89fb9a651cf31169099d526c89425939\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\876323533c7c9c43dc156f175efc50ec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\70591024da748877ffeeb1d8e42d7004\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c9d8b4b84d3975703287a31584e7e02e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\cff20156621db5b4018c237f322924d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5629ba1179a57ce53ed6ed9bac247e9a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\03fc6ad69a42498805db3be53ae9c3f1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f02406e839468ce71d65097a30be80fd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\34e8d4e9d08e56b834ccc59ee2207787\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a095cec41c043edbc9a84138e69398a\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+	package
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:16:11-57
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:1-32:12
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:15:11-69
+application
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:18:5-30:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\99514c50de3343522b366ec90f34f3ff\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\99514c50de3343522b366ec90f34f3ff\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.example.android.hellosharedprefs.MainActivity
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:9-29:20
+	android:name
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml:27:27-74
+uses-sdk
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\416bdad318b927d26f07e9a22b960cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\416bdad318b927d26f07e9a22b960cc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\99514c50de3343522b366ec90f34f3ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\99514c50de3343522b366ec90f34f3ff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\89fb9a651cf31169099d526c89425939\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\89fb9a651cf31169099d526c89425939\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\876323533c7c9c43dc156f175efc50ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\876323533c7c9c43dc156f175efc50ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\70591024da748877ffeeb1d8e42d7004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\70591024da748877ffeeb1d8e42d7004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c9d8b4b84d3975703287a31584e7e02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c9d8b4b84d3975703287a31584e7e02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\cff20156621db5b4018c237f322924d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\cff20156621db5b4018c237f322924d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5629ba1179a57ce53ed6ed9bac247e9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\5629ba1179a57ce53ed6ed9bac247e9a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\03fc6ad69a42498805db3be53ae9c3f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\03fc6ad69a42498805db3be53ae9c3f1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f02406e839468ce71d65097a30be80fd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f02406e839468ce71d65097a30be80fd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\34e8d4e9d08e56b834ccc59ee2207787\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\34e8d4e9d08e56b834ccc59ee2207787\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a095cec41c043edbc9a84138e69398a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Hatem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9a095cec41c043edbc9a84138e69398a\AndroidManifest.xml:20:5-44
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidG\android-fundamentals-starter-apps-v2\HelloSharedPrefs\app\src\main\AndroidManifest.xml
